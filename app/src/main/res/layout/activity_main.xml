@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#423752"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_horizontal_ntb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <devlight.io.library.ntb.NavigationTabBar
+    android:id="@+id/ntb_horizontal"
+    android:layout_width="240dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    app:ntb_bg_color="#4b405c"
+    app:ntb_corners_radius="4dp"
+    app:ntb_preview_colors="@array/polluted_waves"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
